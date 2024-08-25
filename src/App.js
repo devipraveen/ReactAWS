@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Dp React application
+          Dp React application hosted in AWS
         </a>
       </header>
     </div>
