@@ -1,0 +1,18 @@
+[
+  {
+    "class": "info",
+    "href": "#hotelinfo",
+    "text": "my reading catalogue"
+  },
+  
+  {
+    "class": "events",
+    "href": "#events",
+    "text": "book club events"
+  },
+  {
+    "class": "attractions",
+    "href": "#attractions",
+    "text": "groups I follow"
+  }
+]
