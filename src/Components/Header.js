@@ -17,7 +17,7 @@ const Header = () => {
     <header id="intro">
       <article className="fullheight">
         <div className="hgroup">
-          <h1>My little book world</h1>
+          <h1>My Little Book World</h1>
           <p>
             <a href="#welcome"></a>
           </p>

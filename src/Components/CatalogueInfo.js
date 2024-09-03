@@ -28,14 +28,14 @@ const HotelInfo = () => {
   return (
     <div className="scene" id="hotelinfo">
       <article className="heading">
-        <h1>My Reading catalogue</h1>
+        <h1>My Reading Catalogue</h1>
       </article>
       <article id="usefulinfo">
         <section id="arrivalinfo">
           <h2>Books I loved the most</h2>
           <ul>
             <li>
-              <strong>Ponniyin Selvan -Kalki</strong>
+              <strong>Ponniyin Selvan by Kalki</strong>
             </li>
             <li>
               <strong>Becoming by Michelle Obama</strong>
