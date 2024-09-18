@@ -1,30 +1,30 @@
-import React, { useState, useEffect } from "react";
-//import englishData from "./data/english.json";
-//import tamilData from "./data/tamil.json";
+//import React, { useState, useEffect } from "react";
+import englishData from "./data/english.json";
+import tamilData from "./data/tamil.json";
 
 const HotelInfo = () => {
-  const [englishData, setEnglishBooksData] = useState([]);
-  const loadEnglishData = async () => {
-    const resp = await fetch(
-      "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/englishbooks"
-    );
-    let jsonData = await resp.json();
-    setEnglishBooksData(jsonData);
-  };
-  useEffect(() => {
-    loadEnglishData();
-  }, []);
-  const [tamilData, setTamilBooksData] = useState([]);
-  const loadTamilData = async () => {
-    const resp = await fetch(
-      "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/tamilbooks"
-    );
-    let jsonData = await resp.json();
-    setTamilBooksData(jsonData);
-  };
-  useEffect(() => {
-    loadTamilData();
-  }, []);
+  // const [englishData, setEnglishBooksData] = useState([]);
+  // const loadEnglishData = async () => {
+  //   const resp = await fetch(
+  //     "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/englishbooks"
+  //   );
+  //   let jsonData = await resp.json();
+  //   setEnglishBooksData(jsonData);
+  // };
+  // useEffect(() => {
+  //   loadEnglishData();
+  // }, []);
+  // const [tamilData, setTamilBooksData] = useState([]);
+  // const loadTamilData = async () => {
+  //   const resp = await fetch(
+  //     "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/tamilbooks"
+  //   );
+  //   let jsonData = await resp.json();
+  //   setTamilBooksData(jsonData);
+  // };
+  // useEffect(() => {
+  //   loadTamilData();
+  // }, []);
   return (
     <div className="scene" id="hotelinfo">
       <article className="heading">

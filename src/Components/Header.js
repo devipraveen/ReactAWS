@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from "react";
-//import menuLinksData from "./data/menu_links.json";
+//import React, { useState, useEffect } from "react";
+import menuLinksData from "./data/menu_links.json";
 
 const Header = () => {
-  const [menuLinksData, setMenuLinksData] = useState([]);
-  const loadMenuLinksData = async () => {
-    const resp = await fetch(
-      "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/getmenulinks"
-    );
-    let jsonData = await resp.json();
-    setMenuLinksData(jsonData);
-  };
-  useEffect(() => {
-    loadMenuLinksData();
-  }, []);
+  // const [menuLinksData, setMenuLinksData] = useState([]);
+  // const loadMenuLinksData = async () => {
+  //   const resp = await fetch(
+  //     "https://tqbhblyv3l.execute-api.us-east-1.amazonaws.com/Production/getmenulinks"
+  //   );
+  //   let jsonData = await resp.json();
+  //   setMenuLinksData(jsonData);
+  // };
+  // useEffect(() => {
+  //   loadMenuLinksData();
+  // }, []);
   return (
     <header id="intro">
       <article className="fullheight">
